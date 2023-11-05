@@ -5,7 +5,7 @@ const AboutComponent = () => {
     <div className='my-20'>
         
         <div className="hero min-h-screen ">
-  <div className="hero-content flex-col lg:flex-row gap-10">
+  <div className="hero-content flex-wrap flex-col lg:flex-row gap-10">
     <img src={img} className="max-w-sm rounded-lg " />
     <div>
       <h1 className="text-3xl lg:text-5xl font-bold">About Me 👨🏻‍💻</h1>
