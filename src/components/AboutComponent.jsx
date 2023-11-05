@@ -6,7 +6,7 @@ const AboutComponent = () => {
         
         <div className="hero min-h-screen ">
   <div className="hero-content flex-wrap flex-col lg:flex-row gap-10">
-    <img src={img} className="max-w-sm rounded-lg " />
+    <img src={img} className="max-w-[300px] sm:max-w-sm rounded-lg " />
     <div>
       <h1 className="text-3xl lg:text-5xl font-bold">About Me 👨🏻‍💻</h1>
       <p className="py-6">Hello again! Thank you for reaching this far. I recently graduated Scrimba Front End Developer Career Path bootcamp.
